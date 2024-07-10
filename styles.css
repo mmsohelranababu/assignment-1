@@ -285,7 +285,7 @@ body{
 
 #current-container{
   width: 1140px;
-  margin: 0 auto;
+  margin: auto;
   
 }
 
@@ -352,5 +352,75 @@ body{
     margin-top: 24px;
   }
 
+  /* support related styles */
+
+  #support-container{
+    max-width: 1050px;
+    padding: 64px 48px 64px 48px;
+    background-image: url(./assets/handshake.jpg);
+    margin: 0 auto;
+    height: 313px;
+    border-radius: 16px;
+    background-size: 1140px ;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #support-container h1{
+    color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: center;
+  }
+
+  #support-container p{
+    color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 16px;
+    }
+
+#support-container input{
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  padding: 19px 20px 19px 20px;
+  width: 548px;
+  height: 57px;
+
+}
+
+#support-container button{
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  padding: 17px 20px 17px 20px;
+  width: 120px;
+  height: 57px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  border: none;}
+
+  #support-container .input-submit{
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    margin-top: 81px;
+  }
 
 
