@@ -104,6 +104,8 @@ body{
   text-align: center;
   border: none;
   margin-top: 32px;
+  cursor: pointer;
+  
 }
 
 /* why-web-development related styles */
@@ -426,7 +428,7 @@ body{
   /* footer relater styles */
 
   #footer-container {
-    max-width: 1080px;
+    max-width: 1048px;
     border-radius: 16px;
     background: rgba(19, 25, 39, 0.03);
     width: 1440px;
